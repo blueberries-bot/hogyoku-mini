@@ -4,7 +4,7 @@ A browser bot for UnrealOT. No installation or separate player key is needed.
 
 ## How to load
 
-1. Open [UnrealOT staging](https://staging.unrealot.com/play.html), log in, and enter the world.
+1. Open [UnrealOT](https://unrealot.com/play.html) or [staging](https://staging.unrealot.com/play.html?realm=aetherion), log in, and enter the world.
 2. Open your browser's Developer Tools console (`F12` or `Ctrl+Shift+J` in Chrome, Brave, or Edge).
 3. Paste this line and press Enter:
 
@@ -27,4 +27,6 @@ If the console blocks pasting, type `allow pasting`, press Enter, and paste the 
 
 All routines start off. Set your hotbar slots and route before enabling the corresponding routine. Drag the panel by its titlebar on desktop, or press **−** to minimize it. **Reload Bot** refreshes the bot without refreshing the game page. Reload the game page to remove it.
 
-This build is currently for UnrealOT **staging**. AI auto-reply is not included.
+Mini checks authorization on the realm you are playing. LIVE support is prepared for its next server restart; until then the loader explains that it is pending. Staging is available now. AI auto-reply is not included.
+
+The authorization exchange stays out of player chat. Missing or unavailable services show a clear message. Account/IP bans, the realm master switch and short renewable server leases still control access.
