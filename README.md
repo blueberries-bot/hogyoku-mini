@@ -16,17 +16,20 @@ If the console blocks pasting, type `allow pasting`, press Enter, and paste the 
 
 ## Features
 
-- **Cave Bot:** Save route presets, record waypoints, loop routes, and use learned floor transitions.
+- **Cave Bot:** Automatically record your route while you walk. Pause, resume, choose point spacing, undo a point, and save named routes. Floor changes retain their learned links; teleports stop recording instead of creating a broken route.
 - **Auto Attack:** Select nearby monsters, chase in melee mode, or use a configured rune hotkey.
 - **Auto Heal and Auto Eat:** Use your chosen hotbar slots when health, mana, or food runs low.
 - **Rune Trainer and spells:** Make runes and maintain Invisibility or Magic Shield when your character meets the game's requirements.
 - **Panic Runner:** Set a home spot and respond to unknown players or low health.
 - **Equip Ring:** Refill an empty ring slot from an open backpack.
-- **X-ray:** Show loaded creatures and floor markers around your character.
 - **Reconnect watcher and alarm:** Handle game reconnections and alert you to configured threats.
 
-All routines start off. Set your hotbar slots and route before enabling the corresponding routine. Drag the panel by its titlebar on desktop, or press **−** to minimize it. **Reload Bot** refreshes the bot without refreshing the game page. Reload the game page to remove it.
+Mini opens a compact module launcher. Click a module to open its own window; drag its titlebar, minimize it, or close it. Closing a window keeps its routine running. Window positions and your existing settings are remembered. On phones, one module opens at a time with scrolling controls. Xray and game/minimap overlays have been removed.
 
-Mini checks authorization on the realm you are playing. LIVE support is prepared for its next server restart; until then the loader explains that it is pending. Staging is available now. AI auto-reply is not included.
+For a new Cave Bot route, enter a name and click **Create route**, then **Record route**. Walk your route, use **Pause / Resume** as needed, and click **Save recording** when finished. Your route saves automatically. Recording turns off route walking and Auto Attack so you control movement. Use **Start route** to follow a saved route.
+
+Set hotbar slots before enabling a routine. **Stop all** turns off the routines, and **Reload** updates Mini without refreshing the game. Saved settings may restore enabled routines after authorization. Reload the game page to remove Mini.
+
+Mini is available on LIVE and staging and checks authorization on the realm you are playing. AI auto-reply is not included.
 
 The authorization exchange stays out of player chat. Missing or unavailable services show a clear message. Account/IP bans, the realm master switch and short renewable server leases still control access.
